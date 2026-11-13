@@ -28,6 +28,8 @@
 Beranda dibuat sebagai **scrollytelling sinematik**: pengunjung menggulir dari hutan yang sehat, api pertama, kabut asap, hingga lahan pasca kebakaran lewat urutan 189 frame yang digambar di HTML5 Canvas. Setelah itu pengunjung masuk ke artikel, fitur interaktif, dan ajakan untuk ikut menjaga serta memulihkan lingkungan.
 
 > **Prinsip konten:** tidak ada angka, kutipan, atau kontak yang dikarang. Setiap statistik memuat tahun dan tautan sumber. Titik panas satelit diperlakukan sebagai indikasi, bukan konfirmasi kebakaran. FORESTWATCH adalah platform edukasi, **bukan layanan darurat**.
+> link website : https://webdesign-casper79-technoversary-vol-ii.vercel.app
+         atau  : https://forestwatch.page.gd
 
 ---
 
@@ -37,11 +39,11 @@ Dikembangkan untuk kompetisi **Technoversary Vol. II (Web Design, tema EcoDigita
 
 | Foto | Nama | Peran & Kelas | Kontak |
 | :---: | :--- | :--- | :---: |
-| <img src="https://ui-avatars.com/api/?name=Nama+1&background=1B4D3E&color=fff" width="50" style="border-radius:50%"> | **[ilham nur salam]**<br>*([XII RPL 2])* | **Lead Developer** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](ISI_LINK) |
-| <img src="https://ui-avatars.com/api/?name=Nama+2&background=85A98F&color=fff" width="50" style="border-radius:50%"> | **[Ledzi dwi liantona]**<br>*([XI RPL 1])* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](ISI_LINK) |
-| <img src="https://ui-avatars.com/api/?name=Nama+3&background=0D1410&color=fff" width="50" style="border-radius:50%"> | **[Wildan Ferdiansyah]**<br>*([XI RPL 1])* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](ISI_LINK) |
+| <img src="https://ui-avatars.com/api/?name=Nama+1&background=1B4D3E&color=fff" width="50" style="border-radius:50%"> | **ilham nur salam**<br>*XII RPL 2* | **Lead Developer** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hammzy19?cplk=bWhtMGUwMWlkeW1z) |
+| <img src="https://ui-avatars.com/api/?name=Nama+2&background=85A98F&color=fff" width="50" style="border-radius:50%"> | **Ledzi dwi liantona**<br>*XI RPL 1* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ldzdwi?xtok=MWdqMGE4b3ZrYnI3dQ==) |
+| <img src="https://ui-avatars.com/api/?name=Nama+3&background=0D1410&color=fff" width="50" style="border-radius:50%"> | **[Wildan Ferdiansyah**<br>*XI RPL 1* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](ISI_LINK) |
 
-**Nama tim:** [Casper 79] &nbsp;•&nbsp; **Asal:** [Smk pertiwi kuningan]
+**Nama tim:** Casper 79 &nbsp;•&nbsp; **Asal:** Smk pertiwi kuningan
 
 ---
 
@@ -228,6 +230,6 @@ FORESTWATCH adalah platform edukasi, **bukan layanan darurat**. Bila melihat keb
 
 ### *"Satu percikan cukup. Pengetahuan yang benar juga."*
 
-Copyright © 2026 **[Casper 79]**. Dibuat untuk Technoversary Vol. II.
+Copyright © 2026 **Casper 79**. | Technoversary Vol. II.
 
 </div>
