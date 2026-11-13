@@ -28,13 +28,19 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       <div className="px-6 sm:px-12 md:px-20 max-w-7xl mx-auto pt-24 sm:pt-32">
         <Link
           href="/konten"
-          className="inline-flex items-center gap-2 px-4 py-2 text-xs uppercase tracking-label font-bold border border-on-ink/30 hover:bg-on-ink hover:text-ink rounded-sm transition-colors"
+          className="inline-flex max-w-full items-center gap-2 px-3 sm:px-4 py-2.5 text-[10px] sm:text-xs leading-none uppercase tracking-label font-bold border border-on-ink/30 hover:bg-on-ink hover:text-ink rounded-sm transition-colors"
         >
-          <ArrowLeft className="w-4 h-4" aria-hidden="true" />
-          Kembali ke artikel & galeri
+          <ArrowLeft className="w-4 h-4 shrink-0" aria-hidden="true" />
+          <span className="sm:hidden">Kembali ke artikel</span>
+          <span className="hidden sm:inline">Kembali ke artikel & galeri</span>
         </Link>
       </div>
-      <PageHeader kicker={hideArticleMeta ? undefined : `${a.num} // ${a.kicker}`} title={a.title} lead={a.lead} />
+      <PageHeader
+        compact
+        kicker={hideArticleMeta ? undefined : `${a.num} // ${a.kicker}`}
+        title={a.title}
+        lead={a.lead}
+      />
       <div className="px-6 sm:px-12 md:px-20 max-w-4xl mx-auto">
         <figure className="relative w-full aspect-[16/9] border border-on-ink/15 overflow-hidden rounded-sm mb-12">
           <Image src={a.image} alt={a.imageAlt} fill priority sizes="(max-width:1024px) 100vw, 896px" className="object-cover" />

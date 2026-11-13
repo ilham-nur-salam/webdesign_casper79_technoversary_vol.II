@@ -17,13 +17,15 @@ export default function KontenPage() {
       <div className="px-6 sm:px-12 md:px-20 max-w-7xl mx-auto pt-24 sm:pt-32">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 px-4 py-2 text-xs uppercase tracking-label font-bold border border-on-ink/30 hover:bg-on-ink hover:text-ink rounded-sm transition-colors"
+          className="inline-flex items-center gap-2 px-3 sm:px-4 py-2.5 text-[10px] sm:text-xs leading-none uppercase tracking-label font-bold border border-on-ink/30 hover:bg-on-ink hover:text-ink rounded-sm transition-colors"
         >
-          <ArrowLeft className="w-4 h-4" aria-hidden="true" />
-          Kembali ke beranda
+          <ArrowLeft className="w-4 h-4 shrink-0" aria-hidden="true" />
+          <span className="sm:hidden">Kembali</span>
+          <span className="hidden sm:inline">Kembali ke beranda</span>
         </Link>
       </div>
       <PageHeader
+        compact
         title="Artikel & galeri"
         lead="Empat artikel singkat yang disusun dari sumber resmi dan publikasi ilmiah, plus galeri ilustrasi."
       />

@@ -1,8 +1,18 @@
 import React from "react";
 
-export default function PageHeader({ kicker, title, lead }: { kicker?: string; title: string; lead?: string }) {
+export default function PageHeader({
+  kicker,
+  title,
+  lead,
+  compact = false,
+}: {
+  kicker?: string;
+  title: string;
+  lead?: string;
+  compact?: boolean;
+}) {
   return (
-    <header className="pt-36 sm:pt-44 pb-12 px-6 sm:px-12 md:px-20 max-w-7xl mx-auto w-full">
+    <header className={`${compact ? "pt-12 sm:pt-16 md:pt-24" : "pt-36 sm:pt-44"} pb-12 px-6 sm:px-12 md:px-20 max-w-7xl mx-auto w-full`}>
       {kicker && (
         <div className="flex items-center gap-2 text-xs tracking-label uppercase text-secondary mb-5">
           <span className="w-2 h-2 bg-alert inline-block" />
