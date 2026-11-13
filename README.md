@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/media/01-hero.jpg" alt="FORESTWATCH Banner" width="100%">
+<img src="docs/media/09-preloader.png" alt="FORESTWATCH Banner" width="100%">
 
 <br><br>
 
@@ -41,7 +41,7 @@ Dikembangkan untuk kompetisi **Technoversary Vol. II (Web Design, tema EcoDigita
 | :---: | :--- | :--- | :---: |
 | <img src="https://ui-avatars.com/api/?name=Nama+1&background=1B4D3E&color=fff" width="50" style="border-radius:50%"> | **ilham nur salam**<br>*XII RPL 2* | **Lead Developer** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hammzy19?cplk=bWhtMGUwMWlkeW1z) |
 | <img src="https://ui-avatars.com/api/?name=Nama+2&background=85A98F&color=fff" width="50" style="border-radius:50%"> | **Ledzi dwi liantona**<br>*XI RPL 1* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ldzdwi?xtok=MWdqMGE4b3ZrYnI3dQ==) |
-| <img src="https://ui-avatars.com/api/?name=Nama+3&background=0D1410&color=fff" width="50" style="border-radius:50%"> | **[Wildan Ferdiansyah**<br>*XI RPL 1* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](ISI_LINK) |
+| <img src="https://ui-avatars.com/api/?name=Nama+3&background=0D1410&color=fff" width="50" style="border-radius:50%"> | **[Wildan Ferdiansyah**<br>*XI RPL 1* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/wldnnaaa?rpxt=MXFwMDNjY2luZWVmbw==) |
 
 **Nama tim:** Casper 79 &nbsp;•&nbsp; **Asal:** Smk pertiwi kuningan
 
@@ -81,41 +81,32 @@ Dikembangkan untuk kompetisi **Technoversary Vol. II (Web Design, tema EcoDigita
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>Healthy</b><br>Hutan sehat di awal perjalanan</td>
-      <td align="center"><b>Smoke</b><br>Api pertama dan asap menyebar</td>
+      <td align="center"><b>Preloader</b><br>Pemuatan frame progresif sebelum perjalanan dimulai</td>
+      <td align="center"><b>Hero Section</b><br>Hutan sehat di awal scrollytelling</td>
     </tr>
     <tr>
-      <td><img src="docs/media/01-hero.jpg" width="100%"></td>
-      <td><img src="docs/media/02-smoke.jpg" width="100%"></td>
+      <td><img src="docs/media/09-preloader.png" width="100%"></td>
+      <td><img src="docs/media/10-hero-live.png" width="100%"></td>
     </tr>
     <tr>
-      <td align="center"><b>Aftermath</b><br>Lahan setelah kebakaran</td>
+      <td align="center"><b>Jelajahi Pengetahuan</b><br>Pintu masuk ke empat pilar edukasi</td>
       <td align="center"><b>Fakta Bersumber</b><br>Statistik dengan tahun dan tautan sumber</td>
     </tr>
     <tr>
-      <td><img src="docs/media/03-aftermath.jpg" width="100%"></td>
-      <td><img src="docs/media/04-data.jpg" width="100%"></td>
+      <td><img src="docs/media/11-jelajahi.png" width="100%"></td>
+      <td><img src="docs/media/12-fakta-live.png" width="100%"></td>
     </tr>
     <tr>
-      <td align="center"><b>Konten & Galeri</b><br>Artikel dan lightbox</td>
-      <td align="center"><b>Artikel</b><br>Tindakan saat melihat api</td>
+      <td align="center"><b>Pesan Kunci</b><br>Slider edukatif dengan kontrol jeda dan keyboard</td>
+      <td align="center"><b>Uji Diri</b><br>Cek risiko dan kuis interaktif</td>
     </tr>
     <tr>
-      <td><img src="docs/media/05-konten.jpg" width="100%"></td>
-      <td><img src="docs/media/06-artikel.jpg" width="100%"></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Uji Diri</b><br>Cek risiko dan kuis</td>
-      <td align="center"><b>Kontak</b><br>Formulir dengan validasi</td>
-    </tr>
-    <tr>
-      <td><img src="docs/media/07-interaktif.jpg" width="100%"></td>
-      <td><img src="docs/media/08-kontak.jpg" width="100%"></td>
+      <td><img src="docs/media/13-pesan-kunci.png" width="100%"></td>
+      <td><img src="docs/media/07-interaktif.png" width="100%"></td>
     </tr>
   </table>
 </div>
 
----
 
 ## 🗺️ Peta Halaman
 
@@ -147,23 +138,6 @@ Dikembangkan untuk kompetisi **Technoversary Vol. II (Web Design, tema EcoDigita
 | **Visual** | HTML5 Canvas | Menggambar image sequence 189 frame |
 | **Ikon** | lucide-react | Ikon vektor |
 | **Font** | Inter & Geist (lokal) | Tipografi, dimuat dengan `next/font/local` |
-
----
-
-## 📊 Hasil Lighthouse
-
-Build produksi, dijalankan lokal dengan pengaturan mobile bawaan.
-
-| Halaman | Performance | Accessibility | Best Practices | SEO |
-| :--- | :---: | :---: | :---: | :---: |
-| `/` | 74 | 100 | 100 | 100 |
-| `/konten` | 90 | 100 | 100 | 100 |
-| `/konten/pahami` | 89 | 100 | 100 | 100 |
-| `/interaktif` | 98 | 100 | 100 | 100 |
-| `/tentang` | 97 | 100 | 100 | 100 |
-| `/kontak` | 97 | 100 | 100 | 100 |
-
-> Performa beranda lebih rendah karena memuat 189 frame sequence (sekitar 26 MB) demi kualitas visual. Ini kompromi desain yang disengaja.
 
 ---
 
@@ -223,7 +197,6 @@ Butuh **Node.js 18.17 atau lebih baru**.
 ## ⚠️ Catatan Keselamatan
 
 FORESTWATCH adalah platform edukasi, **bukan layanan darurat**. Bila melihat kebakaran aktif, jauhi lokasi dan hubungi **112** atau BPBD dan pemadam kebakaran setempat.
-
 ---
 
 <div align="center">
