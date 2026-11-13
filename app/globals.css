@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: #0D1410;
+  --color-ink-soft: #16211B;
+  --color-on-ink: #F3F0ED;
+  --color-background: #EFECE9;
+  --color-primary: #1B4D3E;
+  --color-primary-container: #003629;
+  --color-secondary: #85A98F;
+  --color-alert: #E53E3E;
+  --color-warning: #D97706;
+  --color-success: #10B981;
+}
+
+html {
+  background-color: #0D1410;
+  color: #F3F0ED;
+  font-family: var(--font-inter), sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tabular figures for numbers */
+.font-tabular {
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+/* Selection */
+::selection {
+  background-color: #1B4D3E;
+  color: #F3F0ED;
+}
+
+/* Lenis smooth scrolling rules */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Hairline border helper */
+.hairline-b {
+  border-bottom: 1px solid rgba(243, 240, 237, 0.12);
+}
+
+.hairline-t {
+  border-top: 1px solid rgba(243, 240, 237, 0.12);
+}
+
+.hairline-r {
+  border-right: 1px solid rgba(243, 240, 237, 0.12);
+}
+
+.hairline-l {
+  border-left: 1px solid rgba(243, 240, 237, 0.12);
+}
+
+.hairline-b-light {
+  border-bottom: 1px solid rgba(27, 77, 62, 0.15);
+}
+
+.hairline-t-light {
+  border-top: 1px solid rgba(27, 77, 62, 0.15);
+}
+
+/* Prevent horizontal scroll without breaking position: sticky */
+html, body {
+  overflow-x: clip;
+  width: 100%;
+}
