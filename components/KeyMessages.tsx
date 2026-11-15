@@ -9,7 +9,6 @@ import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
 const SLIDES = [
   {
     id: "m1",
-    tag: "Air",
     title: "Gambut yang basah sulit terbakar.",
     body: "Menjaga muka air tanah tetap tinggi adalah pencegahan paling mendasar. Gambut dinyatakan rusak bila muka airnya lebih dari 40 cm di bawah permukaan.",
     image: "/assets/canal-block.webp",
@@ -19,17 +18,15 @@ const SLIDES = [
   },
   {
     id: "m2",
-    tag: "Api",
     title: "Api di gambut bisa tak terlihat.",
     body: "Api dapat menjalar di bawah permukaan dan sulit dipadamkan. Jangan mendekat sendiri. Jauhi lokasi dan hubungi 112 atau BPBD setempat.",
-    image: "/assets/firefighters.webp",
+    image: "/assets/fireFighter.webp",
     alt: "Ilustrasi AI: petugas di area kebakaran lahan",
     href: "/konten/darurat",
     cta: "Apa yang harus dilakukan",
   },
   {
     id: "m3",
-    tag: "Asap",
     title: "Asap berdampak pada semua orang.",
     body: "Pantau kualitas udara dari sumber resmi, kurangi aktivitas luar ruangan, dan gunakan masker yang sesuai, misalnya jenis N95.",
     image: "/assets/villager-mask.webp",
@@ -39,7 +36,6 @@ const SLIDES = [
   },
   {
     id: "m4",
-    tag: "Pulih",
     title: "Pemulihan butuh waktu dan kerja bersama.",
     body: "Pembasahan kembali, penanaman jenis asli, dan mata pencaharian yang tidak bergantung pada pembakaran berjalan beriringan.",
     image: "/assets/regenerating.webp",
@@ -130,7 +126,6 @@ export default function KeyMessages() {
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="space-y-8"
           >
-            <div className="text-xs uppercase tracking-label text-secondary font-mono">[ {s.tag} ]</div>
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold uppercase tracking-tight leading-[1.05]">{s.title}</h2>
             <p className="text-base sm:text-lg text-on-ink/90 max-w-2xl leading-relaxed">{s.body}</p>
             <Link

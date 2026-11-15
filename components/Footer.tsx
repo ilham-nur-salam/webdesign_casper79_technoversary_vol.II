@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-[11px] text-on-ink/60 tracking-label uppercase">
-          <div>&copy; 2026 FORESTWATCH. Dibuat Oleh Casper 79</div>
+          <div>&copy; 2026 FORESTWATCH. Dibuat Oleh --Casper 79</div>
           <button
             onClick={() => scrollTo(0)}
             className="flex items-center gap-2 text-on-ink hover:text-secondary transition-colors"

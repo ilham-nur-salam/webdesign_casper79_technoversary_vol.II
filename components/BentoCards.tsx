@@ -35,7 +35,7 @@ const BENTO_ITEMS: BentoItem[] = [
     id: "darurat",
     title: "JIKA MELIHAT API",
     subtitle: "Langkah cepat saat menemukan api, cara melapor, dan perlindungan dari asap.",
-    image: "/assets/firefighters.webp",
+    image: "/assets/fireFighter.webp",
     href: "/konten/darurat",
     colSpan: "lg:col-span-4",
   },

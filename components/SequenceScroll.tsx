@@ -244,7 +244,7 @@ export default function SequenceScroll({ isPreloaded = true }: SequenceScrollPro
             Desktop right indicator / Mobile top progress bar
            ========================================================================= */}
         {/* Mobile top progress bar */}
-        <div className="sm:hidden absolute top-20 left-6 right-6 z-20 flex flex-col gap-1 pointer-events-none">
+        <div className="sm:hidden absolute top-16 left-6 right-6 z-20 flex flex-col gap-1 pointer-events-none">
           <div className="flex justify-between text-[10px] tracking-label uppercase text-on-ink/70">
             <span>
               {currentStage === "healthy"

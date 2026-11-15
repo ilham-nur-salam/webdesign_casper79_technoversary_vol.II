@@ -11,21 +11,18 @@ const ACTION_ROWS = [
     title: "Pahami penyebabnya",
     desc: "Mengapa gambut kering mudah terbakar dan siapa saja yang terdampak.",
     href: "/konten/pahami",
-    badge: "PENGETAHUAN",
   },
   {
     num: "02",
     title: "Cegah di sekitarmu",
     desc: "Kebiasaan aman, menjaga air gambut, dan peran masyarakat peduli api.",
     href: "/konten/cegah",
-    badge: "AKSI",
   },
   {
     num: "03",
     title: "Dukung pemulihan",
     desc: "Pembasahan, penanaman jenis asli, dan cara berpartisipasi yang nyata.",
     href: "/konten/pulihkan",
-    badge: "JANGKA PANJANG",
   },
 ];
 
@@ -104,11 +101,6 @@ export default function CTASection() {
                 </span>
 
                 <div>
-                  <div className="flex items-center gap-3 mb-2">
-                    <span className="text-[10px] uppercase font-mono tracking-widest text-on-ink/70">
-                      [ {row.badge} ]
-                    </span>
-                  </div>
                   <h3 className="text-2xl sm:text-4xl md:text-5xl font-extrabold uppercase tracking-tight text-on-ink group-hover:text-secondary transition-colors duration-300">
                     {row.title}
                   </h3>

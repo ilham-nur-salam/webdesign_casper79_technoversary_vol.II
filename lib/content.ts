@@ -165,7 +165,7 @@ export const ARTICLES: Article[] = [
     title: "Jika Melihat Api",
     kicker: "Tindakan saat darurat",
     lead: "Keselamatanmu lebih penting daripada memadamkan api. Jauhi bahaya, lalu laporkan dengan informasi yang jelas.",
-    image: "/assets/firefighters.webp",
+    image: "/assets/fireFighter.webp",
     imageAlt: "Ilustrasi AI: petugas pemadam di area kebakaran lahan",
     sections: [
       {
@@ -233,15 +233,15 @@ export const GALLERY = [
   { src: "/assets/golden-river.webp", title: "Sungai di lanskap hutan", note: "Sungai dan rawa adalah bagian dari sistem air gambut." },
   { src: "/assets/aerial-river.webp", title: "Sungai dari udara", note: "Pandangan udara membantu memahami lanskap." },
   { src: "/assets/dried-peat.webp", title: "Gambut mengering", note: "Gambut kering mudah terbakar." },
-  { src: "/assets/plume.webp", title: "Kolom asap", note: "Asap kebakaran dapat terbawa jauh dari sumbernya." },
-  { src: "/assets/firefighters.webp", title: "Petugas di lapangan", note: "Pemadaman adalah kerja tim terlatih." },
+  { src: "/assets/kolomAsap.webp", title: "Kolom asap", note: "Asap kebakaran dapat terbawa jauh dari sumbernya." },
+  { src: "/assets/fireFighter.webp", title: "Petugas di lapangan", note: "Pemadaman adalah kerja tim terlatih." },
   { src: "/assets/villager-mask.webp", title: "Warga bermasker", note: "Asap berdampak pada kesehatan warga." },
-  { src: "/assets/aftermath.webp", title: "Setelah kebakaran", note: "Lahan yang terbakar kehilangan penutup vegetasi." },
+  { src: "/assets/setelahKebakaran.webp", title: "Setelah kebakaran", note: "Lahan yang terbakar kehilangan penutup vegetasi." },
   { src: "/assets/canal-block.webp", title: "Sekat kanal", note: "Menahan air agar gambut tetap basah." },
-  { src: "/assets/patrol.webp", title: "Patroli pencegahan", note: "Patroli desa membantu deteksi dini." },
+  { src: "/assets/patroliPencegahan.webp", title: "Patroli pencegahan", note: "Patroli desa membantu deteksi dini." },
   { src: "/assets/planting.webp", title: "Menanam kembali", note: "Revegetasi dengan jenis asli rawa gambut." },
   { src: "/assets/regenerating.webp", title: "Hutan pulih", note: "Pemulihan membutuhkan waktu bertahun-tahun." },
-  { src: "/assets/orangutan.webp", title: "Satwa yang terdampak", note: "Kebakaran menghilangkan habitat satwa." },
+  { src: "/assets/satwaTerdampak.webp", title: "Satwa yang terdampak", note: "Kebakaran menghilangkan habitat satwa." },
 ];
 
 export const CHECKLIST = [
