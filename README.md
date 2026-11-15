@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
 
 <img src="docs/media/09-preloader.png" alt="FORESTWATCH Banner" width="100%">
 
@@ -8,7 +8,7 @@
 
 ### *Web Edukasi Karhutla Indonesia: Pahami, Cegah, Pulihkan*
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-2ecc71?style=for-the-badge&logo=vercel&logoColor=white)](ISI_URL_VERCEL)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-2ecc71?style=for-the-badge&logo=vercel&logoColor=white)](https://forestwatch.page.gd)
 [![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![Lighthouse](https://img.shields.io/badge/Lighthouse-A11y_100_·_BP_100_·_SEO_100-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white)](#-hasil-lighthouse)
 [![Competition](https://img.shields.io/badge/Technoversary-Vol._II_·_EcoDigital-1B4D3E?style=for-the-badge)](#)
@@ -21,6 +21,58 @@
 
 ---
 
+> **⚠️ PENTING: PERIKSA SPESIFIKASI PERANGKAT SEBELUM MENJELAJAHI FORESTWATCH**
+>
+> FORESTWATCH menggunakan animasi scrollytelling berbasis Canvas dengan 189 frame gambar beresolusi 1600×900. Pengalaman terbaik membutuhkan perangkat dengan spesifikasi yang memadai.
+>
+> **Jika perangkat Anda hanya memenuhi spesifikasi minimum, performa animasi dan scrolling mungkin kurang optimal. Kami menyarankan penggunaan perangkat dengan spesifikasi rekomendasi untuk pengalaman yang lebih lancar.**
+>
+> 👉 **[LIHAT RECOMMENDED SYSTEM REQUIREMENTS](#-recommended-system-requirements)**
+
+---
+
+## 💻 Recommended System Requirements
+
+FORESTWATCH dirancang sebagai pengalaman web interaktif yang memanfaatkan animasi, image sequence, dan smooth scrolling. Karena itu, kemampuan prosesor, RAM, dan GPU dapat memengaruhi kelancaran penggunaan.
+
+### System Requirements
+
+| Komponen | Minimum Requirements | Recommended Specifications |
+| :--- | :--- | :--- |
+| **Processor** | Intel Core i5 Gen 4 / Core i3 Gen 6 / AMD Ryzen 3 1200 | Intel Core i5 Gen 8 / AMD Ryzen 5 2600 atau setara |
+| **RAM** | 8 GB | 16 GB |
+| **Graphics** | Intel HD Graphics 4600 / Intel HD 520 / AMD Radeon Vega 3 | Intel UHD Graphics 630 / AMD Radeon Vega 8 atau lebih baik |
+| **Storage** | HDD / SSD | SSD |
+| **Browser** | Google Chrome / Microsoft Edge versi terbaru | Google Chrome / Microsoft Edge versi terbaru |
+| **Display** | 1280 × 720 | 1920 × 1080 |
+| **Internet** | Koneksi stabil 5 Mbps atau lebih | Koneksi stabil 10 Mbps atau lebih |
+
+**Catatan:** Spesifikasi di atas merupakan perkiraan rekomendasi umum, bukan hasil pengujian benchmark menyeluruh pada setiap kombinasi perangkat. Performa aktual dapat berbeda tergantung kondisi perangkat, driver grafis, browser, dan aplikasi lain yang berjalan.
+
+### ⚡ Performance Notice
+
+Beberapa bagian FORESTWATCH membutuhkan pemrosesan lebih tinggi, terutama:
+
+- **Canvas Image Sequence:** 189 frame gambar beresolusi 1600×900 yang dirender mengikuti posisi scroll.
+- **Scroll Animation:** animasi yang berjalan mengikuti pergerakan halaman.
+- **Smooth Scrolling:** menggunakan Lenis untuk menghasilkan pergerakan scroll yang lebih halus.
+- **Progressive Preloader:** memuat aset visual secara bertahap sebelum pengalaman dimulai.
+
+Pada perangkat dengan spesifikasi terbatas, pengunjung mungkin mengalami animasi tersendat, scrolling kurang responsif, atau waktu pemuatan aset yang lebih lama.
+
+### 🛠️ Tips Mendapatkan Performa Terbaik
+
+1. Gunakan Google Chrome atau Microsoft Edge versi terbaru.
+2. Aktifkan **Hardware Acceleration** pada pengaturan browser.
+3. Tutup aplikasi dan tab browser yang tidak diperlukan.
+4. Pastikan driver grafis sudah diperbarui.
+5. Gunakan koneksi internet yang stabil saat pertama kali membuka website.
+6. Hindari mode penghemat daya jika perangkat sedang digunakan untuk menjalankan FORESTWATCH.
+
+> **Rekomendasi kami:** Jika perangkat Anda memenuhi spesifikasi minimum tetapi animasi masih terasa berat, gunakan perangkat yang mendekati atau memenuhi kolom **Recommended Specifications** untuk pengalaman yang lebih optimal.
+
+---
+
 ## 🌲 Tentang FORESTWATCH
 
 **FORESTWATCH** adalah web edukasi tentang kebakaran hutan dan lahan (karhutla) di Indonesia. Setiap musim kemarau, jutaan orang terdampak asapnya, tetapi tidak semua tahu penyebabnya, cara mencegahnya, atau apa yang harus dilakukan saat melihat api.
@@ -28,8 +80,10 @@
 Beranda dibuat sebagai **scrollytelling sinematik**: pengunjung menggulir dari hutan yang sehat, api pertama, kabut asap, hingga lahan pasca kebakaran lewat urutan 189 frame yang digambar di HTML5 Canvas. Setelah itu pengunjung masuk ke artikel, fitur interaktif, dan ajakan untuk ikut menjaga serta memulihkan lingkungan.
 
 > **Prinsip konten:** tidak ada angka, kutipan, atau kontak yang dikarang. Setiap statistik memuat tahun dan tautan sumber. Titik panas satelit diperlakukan sebagai indikasi, bukan konfirmasi kebakaran. FORESTWATCH adalah platform edukasi, **bukan layanan darurat**.
-> link website : https://webdesign-casper79-technoversary-vol-ii.vercel.app
-         atau  : https://forestwatch.page.gd
+
+**Link website:**
+- [https://webdesign-casper79-technoversary-vol-ii.vercel.app](https://webdesign-casper79-technoversary-vol-ii.vercel.app)
+- [https://forestwatch.page.gd](https://forestwatch.page.gd)
 
 ---
 
@@ -41,36 +95,42 @@ Dikembangkan untuk kompetisi **Technoversary Vol. II (Web Design, tema EcoDigita
 | :---: | :--- | :--- | :---: |
 | <img src="https://ui-avatars.com/api/?name=Nama+1&background=1B4D3E&color=fff" width="50" style="border-radius:50%"> | **ilham nur salam**<br>*XII RPL 2* | **Lead Developer** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hammzy19?cplk=bWhtMGUwMWlkeW1z) |
 | <img src="https://ui-avatars.com/api/?name=Nama+2&background=85A98F&color=fff" width="50" style="border-radius:50%"> | **Ledzi dwi liantona**<br>*XI RPL 1* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ldzdwi?xtok=MWdqMGE4b3ZrYnI3dQ==) |
-| <img src="https://ui-avatars.com/api/?name=Nama+3&background=0D1410&color=fff" width="50" style="border-radius:50%"> | **[Wildan Ferdiansyah**<br>*XI RPL 1* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/wldnnaaa?rpxt=MXFwMDNjY2luZWVmbw==) |
+| <img src="https://ui-avatars.com/api/?name=Nama+3&background=0D1410&color=fff" width="50" style="border-radius:50%"> | **Wildan Ferdiansyah**<br>*XI RPL 1* | **Member** | [![INSTAGRAM](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/wldnnaaa?rpxt=MXFwMDNjY2luZWVmbw==) |
 
-**Nama tim:** Casper 79 &nbsp;•&nbsp; **Asal:** Smk pertiwi kuningan
+**Nama tim:** Casper 79 &nbsp;•&nbsp; **Asal:** SMK Pertiwi Kuningan
 
 ---
 
 ## 🚀 Fitur Unggulan
 
 ### 1. 🎬 **Scrollytelling Sinematik**
+
 - **Canvas Image Sequence**: 189 frame (1600×900) yang dikendalikan posisi scroll, dengan crossfade antar frame dan pegas (spring) agar gerakan terasa halus.
 - **Tiga tahap cerita**: Healthy → Smoke → Aftermath, bisa dilompati lewat tombol tahap di sisi kanan.
 - **Smooth scroll** dengan Lenis, preloader progresif, dan dukungan `prefers-reduced-motion` (menampilkan frame akhir tanpa animasi).
 
 ### 2. 📚 **Konten Edukasi Bersumber**
+
 - **Empat artikel**: Pahami, Cegah, Jika Melihat Api, dan Pulihkan.
 - **Fakta ber-sumber**: 4 statistik dengan tahun dan tautan ke publikasi asli, dengan animasi count-up.
 - **Pesan kunci**: slider edukatif dengan kontrol jeda, panah keyboard, dan swipe di mobile.
 
 ### 3. 🧪 **Uji Diri: Cek Risiko & Kuis**
+
 - **Cek Risiko**: 8 pernyataan berbobot yang menghasilkan tingkat Rendah / Sedang / Tinggi beserta saran tindak lanjut.
 - **Kuis 6 pertanyaan** dengan penjelasan di setiap jawaban dan skor akhir.
 
 ### 4. 🖼️ **Galeri dengan Lightbox**
+
 - 13 ilustrasi AI (diberi label jelas), navigasi keyboard (← → Esc), focus trap, dan pemulihan fokus.
 
 ### 5. ✉️ **Formulir Kontak Tervalidasi**
+
 - Validasi di klien **dan** server lewat API route `/api/contact`, pesan kesalahan per kolom, dan fokus otomatis ke kolom bermasalah.
 - **Mode demo**: pesan divalidasi tetapi belum disimpan atau dikirim ke email mana pun.
 
 ### 6. ♿ **Aksesibilitas**
+
 - Menu layar penuh dengan focus trap, Esc, dan `aria-modal`; tautan "Lewati ke konten utama".
 - Skor Lighthouse Accessibility 100 di seluruh halaman.
 
@@ -106,7 +166,6 @@ Dikembangkan untuk kompetisi **Technoversary Vol. II (Web Design, tema EcoDigita
     </tr>
   </table>
 </div>
-
 
 ## 🗺️ Peta Halaman
 
@@ -153,50 +212,48 @@ Dikembangkan untuk kompetisi **Technoversary Vol. II (Web Design, tema EcoDigita
 
 ---
 
-## 🤖 Keaslian & Penggunaan AI
-
-- Urutan scroll di beranda dan 13 gambar galeri adalah **ilustrasi buatan AI**, diberi label "Ilustrasi AI" di dalam situs. Bukan dokumentasi kejadian nyata.
-- Alat AI untuk visual: [ISI NAMA ALAT, mis. Google Whisk / Veo].
-- Foto acuan urutan scroll: [ISI SUMBER & LISENSI FOTO].
-- Kode ditulis dengan bantuan AI. Tidak ada template berbayar.
-
----
-
 ## ⚙️ Instalasi & Penggunaan
 
 Butuh **Node.js 18.17 atau lebih baru**.
 
-1.  **Clone Repository**
-    ```bash
-    git clone https://github.com/ilham-nur-salam/webdesign_casper79_technoversary_vol.II.git
-    ```
+1. **Clone Repository**
 
-2.  **Masuk ke Direktori**
-    ```bash
-    cd webdesign_casper79_technoversary_vol.II
-    ```
+   ```bash
+   git clone https://github.com/ilham-nur-salam/webdesign_casper79_technoversary_vol.II.git
+   ```
 
-3.  **Install Dependensi**
-    ```bash
-    npm install
-    ```
+2. **Masuk ke Direktori**
 
-4.  **Jalankan Mode Pengembangan**
-    ```bash
-    npm run dev
-    ```
-    Buka [http://localhost:3000](http://localhost:3000).
+   ```bash
+   cd webdesign_casper79_technoversary_vol.II
+   ```
 
-5.  **Build Produksi**
-    ```bash
-    npm run build && npm start
-    ```
+3. **Install Dependensi**
 
+   ```bash
+   npm install
+   ```
 
+4. **Jalankan Mode Pengembangan**
+
+   ```bash
+   npm run dev
+   ```
+
+   Buka [http://localhost:3000](http://localhost:3000).
+
+5. **Build Produksi**
+
+   ```bash
+   npm run build && npm start
+   ```
+
+---
 
 ## ⚠️ Catatan Keselamatan
 
 FORESTWATCH adalah platform edukasi, **bukan layanan darurat**. Bila melihat kebakaran aktif, jauhi lokasi dan hubungi **112** atau BPBD dan pemadam kebakaran setempat.
+
 ---
 
 <div align="center">
