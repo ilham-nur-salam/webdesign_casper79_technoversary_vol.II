@@ -258,7 +258,7 @@ FORESTWATCH adalah platform edukasi, **bukan layanan darurat**. Bila melihat keb
 
 <div align="center">
 
-### *"Satu percikan cukup. Pengetahuan yang benar juga."*
+
 
 Copyright © 2026 **Casper 79**. | Technoversary Vol. II.
 
