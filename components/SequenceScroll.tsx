@@ -234,7 +234,7 @@ export default function SequenceScroll({ isPreloaded = true }: SequenceScrollPro
         />
 
         {/* Top Gradient Blend into Ink */}
-        <div className="absolute top-0 left-0 right-0 h-36 bg-gradient-to-b from-ink via-ink/60 to-transparent pointer-events-none z-10" />
+        <div className="absolute top-0 left-0 right-0 h-20 sm:h-36 bg-gradient-to-b from-ink via-ink/60 to-transparent pointer-events-none z-10" />
 
         {/* Bottom Gradient Blend into Ink */}
         <div className="absolute bottom-0 left-0 right-0 h-44 bg-gradient-to-t from-ink via-ink/80 to-transparent pointer-events-none z-10" />
